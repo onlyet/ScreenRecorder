@@ -76,6 +76,7 @@ FrameData * Capture::getData()
     return data;
 }
 
+// 这里不需要加锁吧，m_data_lck应该只用来锁m_frames队列
 void Capture::freeData(FrameData * p)
 {
     std::lock_guard<std::mutex> lck(m_data_lck);

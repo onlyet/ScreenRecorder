@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'ScreenRecorder.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.0
+** Created by: Qt User Interface Compiler version 5.14.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -498,81 +498,81 @@ public:
 
     void retranslateUi(QWidget *ScreenRecorderClass)
     {
-        ScreenRecorderClass->setWindowTitle(QApplication::translate("ScreenRecorderClass", "ScreenRecorder", nullptr));
+        ScreenRecorderClass->setWindowTitle(QCoreApplication::translate("ScreenRecorderClass", "ScreenRecorder", nullptr));
         logo->setText(QString());
-        label_title->setText(QApplication::translate("ScreenRecorderClass", "ScreenRecoder", nullptr));
+        label_title->setText(QCoreApplication::translate("ScreenRecorderClass", "ScreenRecoder", nullptr));
         miniButton->setText(QString());
         closeButton->setText(QString());
         record->setText(QString());
-        label_time->setText(QApplication::translate("ScreenRecorderClass", "00:00:00", nullptr));
+        label_time->setText(QCoreApplication::translate("ScreenRecorderClass", "00:00:00", nullptr));
         label_recordingAudio->setText(QString());
         label_recordingVideo->setText(QString());
-        lineEdit_fileSavePath->setText(QApplication::translate("ScreenRecorderClass", "./video/", nullptr));
-        checkAudio->setText(QApplication::translate("ScreenRecorderClass", "\345\275\225\345\210\266\351\237\263\351\242\221", nullptr));
-        checkVideo->setText(QApplication::translate("ScreenRecorderClass", "\345\275\225\345\210\266\350\247\206\351\242\221", nullptr));
-        label_fileSavePath->setText(QApplication::translate("ScreenRecorderClass", "\346\226\207\344\273\266\344\277\235\345\255\230\350\267\257\345\276\204\357\274\232", nullptr));
-        lineEdit_width->setText(QApplication::translate("ScreenRecorderClass", "1920", nullptr));
-        lineEdit_height->setText(QApplication::translate("ScreenRecorderClass", "1080", nullptr));
-        lineEdit_fps->setText(QApplication::translate("ScreenRecorderClass", "30", nullptr));
-        label_fps->setText(QApplication::translate("ScreenRecorderClass", "\345\270\247\347\216\207", nullptr));
-        label_width->setText(QApplication::translate("ScreenRecorderClass", "\345\210\206\350\276\250\347\216\207", nullptr));
-        lineEdit_channels->setText(QApplication::translate("ScreenRecorderClass", "2", nullptr));
-        lineEdit_samplerate->setText(QApplication::translate("ScreenRecorderClass", "44100", nullptr));
-        label_channels->setText(QApplication::translate("ScreenRecorderClass", "\351\200\232\351\201\223\346\225\260", nullptr));
-        label_samplerate->setText(QApplication::translate("ScreenRecorderClass", "\351\207\207\346\240\267\347\216\207", nullptr));
-        label_captureMode->setText(QApplication::translate("ScreenRecorderClass", "\346\250\241\345\274\217", nullptr));
-        comboBox_logLevel->setItemText(0, QApplication::translate("ScreenRecorderClass", "DETAIL", nullptr));
-        comboBox_logLevel->setItemText(1, QApplication::translate("ScreenRecorderClass", "DEBUG", nullptr));
-        comboBox_logLevel->setItemText(2, QApplication::translate("ScreenRecorderClass", "INFO", nullptr));
-        comboBox_logLevel->setItemText(3, QApplication::translate("ScreenRecorderClass", "WARNING", nullptr));
-        comboBox_logLevel->setItemText(4, QApplication::translate("ScreenRecorderClass", "ERROR", nullptr));
-        comboBox_logLevel->setItemText(5, QApplication::translate("ScreenRecorderClass", "FATEL", nullptr));
+        lineEdit_fileSavePath->setText(QCoreApplication::translate("ScreenRecorderClass", "./video/", nullptr));
+        checkAudio->setText(QCoreApplication::translate("ScreenRecorderClass", "\345\275\225\345\210\266\351\237\263\351\242\221", nullptr));
+        checkVideo->setText(QCoreApplication::translate("ScreenRecorderClass", "\345\275\225\345\210\266\350\247\206\351\242\221", nullptr));
+        label_fileSavePath->setText(QCoreApplication::translate("ScreenRecorderClass", "\346\226\207\344\273\266\344\277\235\345\255\230\350\267\257\345\276\204\357\274\232", nullptr));
+        lineEdit_width->setText(QCoreApplication::translate("ScreenRecorderClass", "1920", nullptr));
+        lineEdit_height->setText(QCoreApplication::translate("ScreenRecorderClass", "1080", nullptr));
+        lineEdit_fps->setText(QCoreApplication::translate("ScreenRecorderClass", "30", nullptr));
+        label_fps->setText(QCoreApplication::translate("ScreenRecorderClass", "\345\270\247\347\216\207", nullptr));
+        label_width->setText(QCoreApplication::translate("ScreenRecorderClass", "\345\210\206\350\276\250\347\216\207", nullptr));
+        lineEdit_channels->setText(QCoreApplication::translate("ScreenRecorderClass", "2", nullptr));
+        lineEdit_samplerate->setText(QCoreApplication::translate("ScreenRecorderClass", "44100", nullptr));
+        label_channels->setText(QCoreApplication::translate("ScreenRecorderClass", "\351\200\232\351\201\223\346\225\260", nullptr));
+        label_samplerate->setText(QCoreApplication::translate("ScreenRecorderClass", "\351\207\207\346\240\267\347\216\207", nullptr));
+        label_captureMode->setText(QCoreApplication::translate("ScreenRecorderClass", "\346\250\241\345\274\217", nullptr));
+        comboBox_logLevel->setItemText(0, QCoreApplication::translate("ScreenRecorderClass", "DETAIL", nullptr));
+        comboBox_logLevel->setItemText(1, QCoreApplication::translate("ScreenRecorderClass", "DEBUG", nullptr));
+        comboBox_logLevel->setItemText(2, QCoreApplication::translate("ScreenRecorderClass", "INFO", nullptr));
+        comboBox_logLevel->setItemText(3, QCoreApplication::translate("ScreenRecorderClass", "WARNING", nullptr));
+        comboBox_logLevel->setItemText(4, QCoreApplication::translate("ScreenRecorderClass", "ERROR", nullptr));
+        comboBox_logLevel->setItemText(5, QCoreApplication::translate("ScreenRecorderClass", "FATEL", nullptr));
 
-        lineEdit_logSavePath->setText(QApplication::translate("ScreenRecorderClass", "./log/", nullptr));
-        label_logSavePath->setText(QApplication::translate("ScreenRecorderClass", "\346\227\245\345\277\227\344\277\235\345\255\230\350\267\257\345\276\204\357\274\232", nullptr));
-        label_fileSavePrefix->setText(QApplication::translate("ScreenRecorderClass", "\346\226\207\344\273\266\345\211\215\347\274\200\357\274\232", nullptr));
-        lineEdit_fileSavePrefix->setText(QApplication::translate("ScreenRecorderClass", "ScreenRecord_", nullptr));
-        label_logLevel->setText(QApplication::translate("ScreenRecorderClass", "\346\227\245\345\277\227\347\272\247\345\210\253\357\274\232", nullptr));
-        comboBox_bitrate_video->setItemText(0, QApplication::translate("ScreenRecorderClass", "256", nullptr));
-        comboBox_bitrate_video->setItemText(1, QApplication::translate("ScreenRecorderClass", "384", nullptr));
-        comboBox_bitrate_video->setItemText(2, QApplication::translate("ScreenRecorderClass", "512", nullptr));
-        comboBox_bitrate_video->setItemText(3, QApplication::translate("ScreenRecorderClass", "768", nullptr));
-        comboBox_bitrate_video->setItemText(4, QApplication::translate("ScreenRecorderClass", "1024", nullptr));
-        comboBox_bitrate_video->setItemText(5, QApplication::translate("ScreenRecorderClass", "1536", nullptr));
-        comboBox_bitrate_video->setItemText(6, QApplication::translate("ScreenRecorderClass", "2048", nullptr));
-        comboBox_bitrate_video->setItemText(7, QApplication::translate("ScreenRecorderClass", "4096", nullptr));
-        comboBox_bitrate_video->setItemText(8, QApplication::translate("ScreenRecorderClass", "6140", nullptr));
-        comboBox_bitrate_video->setItemText(9, QApplication::translate("ScreenRecorderClass", "8184", nullptr));
+        lineEdit_logSavePath->setText(QCoreApplication::translate("ScreenRecorderClass", "./log/", nullptr));
+        label_logSavePath->setText(QCoreApplication::translate("ScreenRecorderClass", "\346\227\245\345\277\227\344\277\235\345\255\230\350\267\257\345\276\204\357\274\232", nullptr));
+        label_fileSavePrefix->setText(QCoreApplication::translate("ScreenRecorderClass", "\346\226\207\344\273\266\345\211\215\347\274\200\357\274\232", nullptr));
+        lineEdit_fileSavePrefix->setText(QCoreApplication::translate("ScreenRecorderClass", "ScreenRecord_", nullptr));
+        label_logLevel->setText(QCoreApplication::translate("ScreenRecorderClass", "\346\227\245\345\277\227\347\272\247\345\210\253\357\274\232", nullptr));
+        comboBox_bitrate_video->setItemText(0, QCoreApplication::translate("ScreenRecorderClass", "256", nullptr));
+        comboBox_bitrate_video->setItemText(1, QCoreApplication::translate("ScreenRecorderClass", "384", nullptr));
+        comboBox_bitrate_video->setItemText(2, QCoreApplication::translate("ScreenRecorderClass", "512", nullptr));
+        comboBox_bitrate_video->setItemText(3, QCoreApplication::translate("ScreenRecorderClass", "768", nullptr));
+        comboBox_bitrate_video->setItemText(4, QCoreApplication::translate("ScreenRecorderClass", "1024", nullptr));
+        comboBox_bitrate_video->setItemText(5, QCoreApplication::translate("ScreenRecorderClass", "1536", nullptr));
+        comboBox_bitrate_video->setItemText(6, QCoreApplication::translate("ScreenRecorderClass", "2048", nullptr));
+        comboBox_bitrate_video->setItemText(7, QCoreApplication::translate("ScreenRecorderClass", "4096", nullptr));
+        comboBox_bitrate_video->setItemText(8, QCoreApplication::translate("ScreenRecorderClass", "6140", nullptr));
+        comboBox_bitrate_video->setItemText(9, QCoreApplication::translate("ScreenRecorderClass", "8184", nullptr));
 
-        comboBox_bitrate_video->setCurrentText(QApplication::translate("ScreenRecorderClass", "2048", nullptr));
-        comboBox_bitrate_audio->setItemText(0, QApplication::translate("ScreenRecorderClass", "32", nullptr));
-        comboBox_bitrate_audio->setItemText(1, QApplication::translate("ScreenRecorderClass", "64", nullptr));
-        comboBox_bitrate_audio->setItemText(2, QApplication::translate("ScreenRecorderClass", "96", nullptr));
-        comboBox_bitrate_audio->setItemText(3, QApplication::translate("ScreenRecorderClass", "128", nullptr));
-        comboBox_bitrate_audio->setItemText(4, QApplication::translate("ScreenRecorderClass", "192", nullptr));
-        comboBox_bitrate_audio->setItemText(5, QApplication::translate("ScreenRecorderClass", "256", nullptr));
-        comboBox_bitrate_audio->setItemText(6, QApplication::translate("ScreenRecorderClass", "320", nullptr));
-        comboBox_bitrate_audio->setItemText(7, QApplication::translate("ScreenRecorderClass", "384", nullptr));
-        comboBox_bitrate_audio->setItemText(8, QApplication::translate("ScreenRecorderClass", "448", nullptr));
-        comboBox_bitrate_audio->setItemText(9, QApplication::translate("ScreenRecorderClass", "512", nullptr));
+        comboBox_bitrate_video->setCurrentText(QCoreApplication::translate("ScreenRecorderClass", "2048", nullptr));
+        comboBox_bitrate_audio->setItemText(0, QCoreApplication::translate("ScreenRecorderClass", "32", nullptr));
+        comboBox_bitrate_audio->setItemText(1, QCoreApplication::translate("ScreenRecorderClass", "64", nullptr));
+        comboBox_bitrate_audio->setItemText(2, QCoreApplication::translate("ScreenRecorderClass", "96", nullptr));
+        comboBox_bitrate_audio->setItemText(3, QCoreApplication::translate("ScreenRecorderClass", "128", nullptr));
+        comboBox_bitrate_audio->setItemText(4, QCoreApplication::translate("ScreenRecorderClass", "192", nullptr));
+        comboBox_bitrate_audio->setItemText(5, QCoreApplication::translate("ScreenRecorderClass", "256", nullptr));
+        comboBox_bitrate_audio->setItemText(6, QCoreApplication::translate("ScreenRecorderClass", "320", nullptr));
+        comboBox_bitrate_audio->setItemText(7, QCoreApplication::translate("ScreenRecorderClass", "384", nullptr));
+        comboBox_bitrate_audio->setItemText(8, QCoreApplication::translate("ScreenRecorderClass", "448", nullptr));
+        comboBox_bitrate_audio->setItemText(9, QCoreApplication::translate("ScreenRecorderClass", "512", nullptr));
 
-        comboBox_bitrate_audio->setCurrentText(QApplication::translate("ScreenRecorderClass", "128", nullptr));
-        label_bitrate_video->setText(QApplication::translate("ScreenRecorderClass", "\347\240\201\347\216\207", nullptr));
-        label_bitrate_audio->setText(QApplication::translate("ScreenRecorderClass", "\347\240\201\347\216\207", nullptr));
-        label_videoKbps->setText(QApplication::translate("ScreenRecorderClass", "Kbps", nullptr));
-        label_audioKbps->setText(QApplication::translate("ScreenRecorderClass", "Kbps", nullptr));
-        comboBox_captureMode->setItemText(0, QApplication::translate("ScreenRecorderClass", "DXGI", nullptr));
-        comboBox_captureMode->setItemText(1, QApplication::translate("ScreenRecorderClass", "DX9", nullptr));
-        comboBox_captureMode->setItemText(2, QApplication::translate("ScreenRecorderClass", "QT", nullptr));
+        comboBox_bitrate_audio->setCurrentText(QCoreApplication::translate("ScreenRecorderClass", "128", nullptr));
+        label_bitrate_video->setText(QCoreApplication::translate("ScreenRecorderClass", "\347\240\201\347\216\207", nullptr));
+        label_bitrate_audio->setText(QCoreApplication::translate("ScreenRecorderClass", "\347\240\201\347\216\207", nullptr));
+        label_videoKbps->setText(QCoreApplication::translate("ScreenRecorderClass", "Kbps", nullptr));
+        label_audioKbps->setText(QCoreApplication::translate("ScreenRecorderClass", "Kbps", nullptr));
+        comboBox_captureMode->setItemText(0, QCoreApplication::translate("ScreenRecorderClass", "DXGI", nullptr));
+        comboBox_captureMode->setItemText(1, QCoreApplication::translate("ScreenRecorderClass", "DX9", nullptr));
+        comboBox_captureMode->setItemText(2, QCoreApplication::translate("ScreenRecorderClass", "QT", nullptr));
 
-        checkFile->setText(QApplication::translate("ScreenRecorderClass", "\344\277\235\345\255\230\346\226\207\344\273\266", nullptr));
-        checkLog->setText(QApplication::translate("ScreenRecorderClass", "\350\256\260\345\275\225\346\227\245\345\277\227", nullptr));
-        checkRtmp->setText(QApplication::translate("ScreenRecorderClass", "\346\216\250\346\265\201", nullptr));
-        lineEdit_rtmpPath->setText(QApplication::translate("ScreenRecorderClass", "rtmp://192.168.1.111/live", nullptr));
-        label_rtmpPath->setText(QApplication::translate("ScreenRecorderClass", "\346\265\201\345\234\260\345\235\200\357\274\232", nullptr));
-        comboBox_screen->setItemText(0, QApplication::translate("ScreenRecorderClass", "Desktop", nullptr));
-        comboBox_screen->setItemText(1, QApplication::translate("ScreenRecorderClass", "Monitor1", nullptr));
-        comboBox_screen->setItemText(2, QApplication::translate("ScreenRecorderClass", "Monitor2", nullptr));
+        checkFile->setText(QCoreApplication::translate("ScreenRecorderClass", "\344\277\235\345\255\230\346\226\207\344\273\266", nullptr));
+        checkLog->setText(QCoreApplication::translate("ScreenRecorderClass", "\350\256\260\345\275\225\346\227\245\345\277\227", nullptr));
+        checkRtmp->setText(QCoreApplication::translate("ScreenRecorderClass", "\346\216\250\346\265\201", nullptr));
+        lineEdit_rtmpPath->setText(QCoreApplication::translate("ScreenRecorderClass", "rtmp://192.168.1.111/live", nullptr));
+        label_rtmpPath->setText(QCoreApplication::translate("ScreenRecorderClass", "\346\265\201\345\234\260\345\235\200\357\274\232", nullptr));
+        comboBox_screen->setItemText(0, QCoreApplication::translate("ScreenRecorderClass", "Desktop", nullptr));
+        comboBox_screen->setItemText(1, QCoreApplication::translate("ScreenRecorderClass", "Monitor1", nullptr));
+        comboBox_screen->setItemText(2, QCoreApplication::translate("ScreenRecorderClass", "Monitor2", nullptr));
 
     } // retranslateUi
 
