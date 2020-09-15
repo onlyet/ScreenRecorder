@@ -1,1 +1,77 @@
-/.vs
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+#*.so
+*.dylib
+#*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+#*.a
+#*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.pdb
+*.ilk
+
+
+*.user
+*.user.*
+*.svn
+/pcb.pro.user.4.8-pre1
+/Build/Debug/pcbs/log
+/Build/Debug/pcbt/log
+/Build/Release/pcbs/log
+/Build/Release/pcbt/log
+/Build/Debug/pcbs/test.ts
+/Build/Release/pcbt_V2.0.0.1068_bk.zip
+/Build/Release/pcbt_new.zip
+/TClient/Widgets/CSeat/CSeat - 副本 (2).ui
+/TClient/Widgets/CSeat/CSeat - 副本.ui
+/TClient/Widgets/CSeat/CSeat_bk.ui
+/TClient/Widgets/CSeat/NameWidget - 副本.ui
+/common/CMessageBox/CConfirmBox - 副本 - 副本.ui
+/common/CMessageBox/CConfirmBox - 副本.ui
+/common/CMessageBox/CInfoBox - 副本.ui
+/build-pcb-Qt5_11_0_MinGW_32_bit-Debug
+/build-pcb-Qt5_11_0_MinGW_32_bit-Release
+/USB-Version/Build/Debug/pcbt_2.0.2.1609_debug.zip
+/USB-Version/Build/Debug/pcbs_debug.zip
+/IPC-Version/Build/Debug/pcbt_2.0.2.1609_debug.zip
+/IPC-Version/Build/Debug/pcbs_debug.zip
+/USB-Version/Build/Debug/pcbs/EasyDarwin/logs
+/USB-Version/Build/Debug/pcbs/temp
+/USB-Version/build-pcb-Qt5_11-Debug
+*.zip
+*.acm
+*.acm2
+
+*.log
+.vs
+Debug
+Release
+*.aps
+temp
+/IPC-Version/TClient/Widgets/CLoginDlg/CLoginDlg - 鍓湰.ui
+/IPC-Version/image/demoLogo2_bk2.png
+/TaiPingMiddleSchool
+*.user
